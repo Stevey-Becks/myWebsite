@@ -1,0 +1,57 @@
+.personal-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.photo-container {
+  display: flex;
+  justify-content: center;
+}
+
+.my-photo {
+  max-width: 60%;
+  border-radius: 15px;
+  border: solid;
+  border-color: #696969;
+}
+
+.info-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: baseline;
+
+  max-width: 60%;
+
+  padding: 25px;
+
+  border-radius: 8px;
+  border: solid;
+  border-color: #696969;
+
+  background-color: #120B2B;
+}
+
+.about-me-title {
+  font-family: 'Noto Serif Makasar', serif;
+  font-size: 64px;
+  color: #696969;
+  text-decoration: underline;
+}
+
+.about-me-info {
+  font-size: 28px;
+  margin-top: 50px;
+
+  color: #696969;
+}
+
+@media (max-width: 1197px){
+}

@@ -1,7 +1,5 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+/*HEADER*/
+/*-----------------------*/
 
 header {
   display: flex;
@@ -9,11 +7,12 @@ header {
   justify-content: center;
   align-items: center;
 
-  width: auto;
   height: 600px;
 
-  background-color: rgb(18, 11, 43);
-  color: rgb(211, 210, 210);
+  background-color: #120B2B;
+  color: #696969;
+
+  font-family: 'Agdasima', sans-serif;
 }
 
 .header-title {
@@ -21,16 +20,22 @@ header {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+
   margin-bottom: 70px;
 }
 
 .header-intro {
-  font-size: 56px;
+  font-size: 78px;
+  background-color: #120B2B;
 }
 
 .header-name {
-  font-size: 64px;
+  font-size: 96px;
+  background-color: #120B2B;
 }
+
+/*SOCIALS*/
+/*-----------------------*/
 
 .socials {
   display: flex;
@@ -39,25 +44,41 @@ header {
   text-align: center;
   flex-wrap: wrap;
   font-size: 28px;
+  background-color: #120B2B;
 }
 
 .github-div, .facebook-div, .instagram-div {
   margin-left: 10px;
   margin-right: 10px;
+  background-color: #120B2B;
 }
 
-.github-button, .facebook-button, .instagram-button {
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-
-  background-color: rgb(211, 210, 210);
-  border: none;
-  border-radius: 5px;
+/*FONT AWESOME ICONS*/
+/*-----------------------*/
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  background: #696969;
+  color: #FFFFFF;
 }
 
-.github-button {
-  padding-right: 15px;
-  padding-left: 15px;
+.fa:hover {
+  opacity: 75%;
+}
+
+.quote {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+
+  font-size: 36px;
+
+  margin-top: 75px;
 }
