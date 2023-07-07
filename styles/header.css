@@ -82,3 +82,13 @@ header {
 
   margin-top: 75px;
 }
+
+@media (max-width: 497px) {
+  .quote {
+    margin-top: 25px;
+  }
+
+  .header-title {
+    margin-bottom: 30px;
+  }
+}
